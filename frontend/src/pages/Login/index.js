@@ -35,7 +35,7 @@ const useStyles = makeStyles(theme => ({
 		width: "100vw",
 		height: "100vh",
 		//background: "linear-gradient(to right, #76EE00 , #76EE00 , #458B00)",
-		backgroundImage: "url(https://siteconnect.com.br/wp-content/uploads/2023/06/Foto-Branca-1920-x-1080.webp)",
+		backgroundImage: "url(https://img.freepik.com/fotos-premium/fundo-azul-abstrato-com-gradiente-suave-usado-para-modelos-de-web-design-sala-de-estudio-de-produto_570543-7019.jpg)",
 		backgroundRepeat: "no-repeat",
 		backgroundSize: "100% 100%",
 		backgroundPosition: "center",
@@ -147,8 +147,8 @@ const Login = () => {
 				</form>
 			
 			</div>
-			
-			
+			<a target="_blank" href="https://websitevix.com.br" className={classes.powered}>WebsiteVix - https://websitevix.com.br/</a>
+			<Box mt={8}>{/* <Copyright /> */}</Box>
 		</Container>
 		</div>
 	);
